@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { colors } from "styles/GlobalStyle"
 
-export const HistMain = styled.footer`
+export const HistMain = styled.main`
   background-color: ${colors.bgBlue};
   display: block;
   flex-direction: row;
