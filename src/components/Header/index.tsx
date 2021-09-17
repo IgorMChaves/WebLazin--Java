@@ -1,14 +1,12 @@
-import * as S from "./styles"
-import logo from "assests/img/logo mor.svg"
+import * as S from "./styles";
+import logo from "assets/img/logo.svg";
 
 const Header = () => {
-    return (
-        <S.Header>
-            <div>
-                <img src={logo} alt="logo do site" />
-            </div>
-        </S.Header>
-    )
-}
+  return (
+    <S.Header>
+      <h1>HOSPITAL GREY+SLOAN</h1>
+    </S.Header>
+  );
+};
 
-export default Header 
+export default Header;

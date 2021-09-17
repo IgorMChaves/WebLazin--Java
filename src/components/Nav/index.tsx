@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import * as S from "./styles";
+
 
 const Nav = () => {
   return (
@@ -11,10 +13,16 @@ const Nav = () => {
       </label>
       <ul>
         <li>
-          <a href="">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-        <a href="">Home</a>
+          <Link to="/departamentos">Departamentos</Link>
+        </li>
+        <li>
+          <Link to="/cirurgioes">Cirurgiões</Link>
+        </li>
+        <li>
+          <Link to="/nossahistoria">História</Link>
         </li>
       </ul>
     </S.Nav>

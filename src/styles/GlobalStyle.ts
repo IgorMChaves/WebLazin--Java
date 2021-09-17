@@ -23,5 +23,6 @@ body{
 export const colors = {
     blue: "#0E1725",
     bgBlue: "#1A2A44",
+    CBlue: "#35507B",
     white: "#ffffff"
 }
