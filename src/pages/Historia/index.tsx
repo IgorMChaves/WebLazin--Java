@@ -1,6 +1,6 @@
 import {Footer, Header, HistMain, Nav} from "components"
 
-const História = () => {
+const Historia = () => {
     return (
     <>
         <Header />
@@ -11,4 +11,4 @@ const História = () => {
     );
 };
 
-export default História;
+export default Historia;

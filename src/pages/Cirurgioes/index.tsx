@@ -1,6 +1,6 @@
 import {CirurMain, Footer, Header, Nav} from "components"
 
-const Cirurgiões = () => {
+const Cirurgioes = () => {
     return (
     <>
         <Header />
@@ -11,4 +11,4 @@ const Cirurgiões = () => {
     );
 };
 
-export default Cirurgiões;
+export default Cirurgioes;
